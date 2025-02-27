@@ -1,0 +1,52 @@
+<div class="p-6">
+  <h2 class="text-4xl font-bold text-center mb-6">Nuestro Menú</h2>
+
+  <!-- Filtros -->
+  <div class="flex justify-center mb-6">
+    <input
+      type="text"
+      placeholder="Buscar platillo..."
+      class="w-2/3 md:w-1/3 px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-yellow-500"
+    />
+  </div>
+
+  <!-- Categorías -->
+  <div class="flex justify-center space-x-4 mb-6">
+    <button class="px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-white rounded-lg">Entradas</button>
+    <button class="px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-white rounded-lg">Platos Principales</button>
+    <button class="px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-white rounded-lg">Postres</button>
+    <button class="px-4 py-2 bg-yellow-500 hover:bg-yellow-600 text-white rounded-lg">Bebidas</button>
+  </div>
+
+  <!-- Galería -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div
+      class="shadow-lg rounded-lg overflow-hidden transform hover:scale-105 hover:shadow-2xl transition-all duration-300"
+    >
+      <img
+        src="assets/img/platillo1.jpg"
+        alt="Platillo 1"
+        class="w-full h-40 object-cover"
+      />
+      <div class="p-4">
+        <h3 class="text-xl font-bold">Tacos al Pastor</h3>
+        <p class="text-gray-600">Deliciosos tacos con carne marinada y piña.</p>
+        <p class="text-yellow-500 font-bold">$120 MXN</p>
+      </div>
+    </div>
+    <div
+      class="shadow-lg rounded-lg overflow-hidden transform hover:scale-105 hover:shadow-2xl transition-all duration-300"
+    >
+      <img
+        src="assets/img/platillo2.jpg"
+        alt="Platillo 2"
+        class="w-full h-40 object-cover"
+      />
+      <div class="p-4">
+        <h3 class="text-xl font-bold">Ensalada César</h3>
+        <p class="text-gray-600">Fresca ensalada con aderezo casero.</p>
+        <p class="text-yellow-500 font-bold">$90 MXN</p>
+      </div>
+    </div>
+  </div>
+</div>

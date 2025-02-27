@@ -1,0 +1,50 @@
+<div class="p-6 max-w-lg mx-auto animate-slide-up">
+  <h2 class="text-4xl font-bold text-center mb-6">Reservar Mesa</h2>
+
+  <form class="space-y-4">
+    <!-- Fecha -->
+    <div class="transition-transform duration-500 hover:scale-105">
+      <label for="fecha" class="block text-gray-700">Fecha</label>
+      <input
+        type="date"
+        id="fecha"
+        class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+      />
+    </div>
+
+    <!-- Hora -->
+    <div class="transition-transform duration-500 hover:scale-105">
+      <label for="hora" class="block text-gray-700">Hora</label>
+      <input
+        type="time"
+        id="hora"
+        class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+      />
+    </div>
+
+    <!-- Número de Personas -->
+    <div class="transition-transform duration-500 hover:scale-105">
+      <label for="personas" class="block text-gray-700">Número de Personas</label>
+      <select
+        id="personas"
+        class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+      >
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5+</option>
+      </select>
+    </div>
+
+    <!-- Botón Reservar -->
+    <div class="text-center">
+      <button
+        type="submit"
+        class="px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg text-lg font-semibold transform hover:scale-110 transition-all duration-300"
+      >
+        Reservar Ahora
+      </button>
+    </div>
+  </form>
+</div>
